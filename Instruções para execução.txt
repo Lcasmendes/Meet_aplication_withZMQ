@@ -1,0 +1,29 @@
+Bibliotecas necessárias:
+- tkinter
+- zmq
+- cv2
+- threading
+- numpy
+- Pil
+- pyaudio
+- time
+- uuid
+
+As bibliotecas também estão indicadas na venv
+
+Para executar o programa:
+Esteja num ambiente do python com as libs acima instaladas
+1° - Execute o broker com o comando python broker.py ou python3 broker.py 
+2° - Execute o client com o comando python client.py ou python3 client.py
+3° - Insira um nome de usuário na caixa necessária na interface
+
+A partir disso, o usuário deve ser capaz de utilizar as três funcionalidades: audio, texto e video
+-  Se quiser ouvir o audio dos outros clients conectados ou ver o video, inicie o do client atual
+
+Obs: Uso do video
+
+O programa executa está executando em apenas uma máquina, e caso mais de um cliente tente acessar a mesma câmera 
+não irá funcionar de imediato.
+
+Caso deseje testar dois clients executando o vídeo ao mesmo tempo, são necessárias duas câmeras físicas na máquina 
+reconhecíveis pelo OpenCV ou o uso de uma câmera virtual, como a do OBS Studio
