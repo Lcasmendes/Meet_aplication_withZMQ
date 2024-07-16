@@ -1,5 +1,7 @@
 This code is a simple application similar to a Google Meet using Python and ZeroMQ.
 
+This runs only in localhost
+
 It consists:
 - A broker, responsible for connecting the multiple clients in a PUB/SUB format for Audio, Video and Text in different channels.
 - A class responsible for the text
